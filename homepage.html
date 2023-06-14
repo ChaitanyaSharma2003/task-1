@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">A</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>cosmetics</li>
+            <li><a href="#"></a>skin care</li>
+            <li><a href="#"></a>discover</li>
+            <li class="ctn"><a href="#"></a>contact us</li>
+        </ul>
+        <img src="./img/21.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+    <div class="header-content">
+        <h2>Captivate. Hydrate. Radiate.</h2>
+        <div class="line"></div>
+        <h1>ANASTASIA</h1>
+        <a href="#" class="ctn">Explore</a>
+    </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>S A L E</h1>
+            <div class="line1"></div>
+        </div>
+        <div class="row">
+            <div class="nimage">
+            <div class="col">
+                <img src="./img/19.avif" alt="">
+                <h4>Sunscreen</h4>
+                <p>hydrate + moisturize + spf 50</p>
+                <a href="#" class="cart">ADD TO CART | $20</a>
+            </div>
+            <div class="col">
+                <img src="./img/16.avif" alt="">
+                <h4>Hand Cream</h4>
+                <p>nourish + smoothen + fragrance</p>
+                <a href="#" class="cart">ADD TO CART | $10</a>
+            </div>
+            <div class="col">
+                <img src="./img/44.jpg" alt="">
+                <h4>Lip Oil</h4>
+                <p>soft + creamy + glossy</p>
+                <a href="#" class="cart">ADD TO CART | $15</a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="skincare">
+        <div class="skincare-content">
+            <h1>HEAL YOUR SKIN</h1>
+            <div class="line"></div>
+        <p>Experience the power of radiant skin with our transformative skincare line, 
+            carefully crafted to reveal your natural beauty from within</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="row">
+            <div class="col content-col">
+                <h1>BESTSELLERS</h1>
+                <div class="line1"></div>
+                <p>Get ready to experience skincare bliss with our bestseller that has everyone buzzing! 
+                    Elevate your skincare routine with the coveted product that gives a radiant glow.</p>
+                <a href="#" class="cart">SHOP NOW</a>
+            </div>
+            <div class="col image-col">
+                <div class="sell-galary">
+                    <img src="./img/oone.jpg" alt="">
+                    <img src="./img/two.jpg" alt="">
+                    <img src="./img/threethree.jpg" alt="">
+                    <img src="./img/20.avif" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer">
+        <p><a href="#" class="active">contact us</a> &nbsp; &nbsp; <a href="#" class="active">faq</a>
+             &nbsp; &nbsp; <a href="#" class="active">shipping</a> 
+            &nbsp; &nbsp; <a href="#" class="active">order tracking</a></p>
+        <p>222 Pacific Coast Highway Suite 200 El Segundo, CA 90245 USA</p>
+        <p>© 2023 coty operations</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
